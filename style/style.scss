@@ -1,0 +1,30 @@
+$bgColor: wheat;
+
+body {
+  background-color: $bgColor;
+  ul {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    gap: 10px;
+
+    li {
+      background-color: tomato;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 7px;
+      &:hover {
+        opacity: 0.8;
+        a {
+          color: grey;
+        }
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
